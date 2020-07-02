@@ -1,0 +1,40 @@
+<HTML>
+<body background="file:///C:/Users/Munar/Desktop/hola/headerbg.jpg">
+
+ 
+<font color="White"> <FONT SIZE=20> <Marquee> Technology and Medical </Marquee> </FONT> </FONT>
+
+
+<font color="White">  <h1 class="form-signin-Center">Inicio de Sesión</h1>
+<body>
+
+
+<script>
+function usrpas(){
+if (document.form1.txt.value=="admin1" && document.form1.num.value=="1234"){window.location="home.htm";return}
+if (document.form1.txt.value=="admin2" && document.form1.num.value=="4321"){window.location="prueba.htm";return}
+if (document.form1.txt.value=="admin3" && document.form1.num.value=="1324"){window.location="pagina.htm";return}
+ 
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+
+<form name="form1">
+
+
+<font face="Arial"> Nombre de Usuario:<P>
+<input type="text" placeholder="Usuario" name="txt"><br>
+<P>
+<font face="Arial">Contraseña:<P>
+<input type="text" placeholder="Contraseña" name="num"> <br>
+<P>
+<input type="button" value="ir a.." onclick="usrpas()">
+</form>
+
+
+
+</FORM> 
+</body>
+</html>
+ 
